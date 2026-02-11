@@ -1,0 +1,54 @@
+h1{
+    color: white;
+    font-size: 25px;
+}
+audio{
+        display: block;
+        margin: 20px auto;
+        size: 10px;
+    }
+body{background-color: crimson;
+display:flex
+border: 1px solid black;  
+padding: 20px;  
+margin: 20px;     
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.divisor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 5px solid white;
+}
+input{
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;    
+    
+
+    }  
+    form{
+        color: white;
+        font-size: 20px;
+        text-align: center ;
+    } 
+    input[type="submit"]{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: crimson; 
+    padding: 15px 30px  ;
+    }
+    input[type="submit"]:hover{
+        background-color: white;
+        color: crimson;
+        cursor: pointer;
+    }       
